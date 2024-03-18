@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(120, 24, 211);
+}
+
+.botonMagico {
+    height: 24rem;
+    width: 50rem;
+    background-color: rgb(229, 24, 116);
+    font-size: 5rem;
+    border-radius: 5px;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+.botonMagico:hover{
+    box-shadow: 5rem;
+    cursor: crosshair;
+    text-decoration: none;
+}
+
+.oculto {
+    display: none;
+}
+
+#carusel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card{
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card-text {
+    padding: 10px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
